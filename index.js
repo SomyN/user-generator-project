@@ -10,7 +10,11 @@ function generateUser(){
         ${data?.results[0]?.name?.first}
         ${data?.results[0]?.name?.last}
         </h1>
+        <p class="para-text"> ${data?.results[0].gender} </p>
         <p class="para-text"> ${data?.results[0].email} </p>
+        <p class="para-text"> ${data?.results[0].phone} </p>
+        <p class="para-text"> ${data?.results[0]?.location?.state} </p>
+        <p class="para-text"> ${data?.results[0]?.location?.country} </p>
          
         <img class="image" src = ${data?.results[0].picture?.large}
         </div>`
